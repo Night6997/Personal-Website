@@ -20,10 +20,11 @@ body {
     left: 0;
     right: 0;
     opacity: 0.83;
-    background: linear-gradient(#1cb5ba 49%, #d1650d 51%);
+    background: linear-gradient(#1cb5ba , #c2cc52 100%);
     display: table;
     width: 100%;
     height: 80%;
+    z-index: 9;
 }
 
 .divClass1 {
@@ -36,20 +37,21 @@ body {
 h1 {
     font-size: 40px;
     line-height: 1.2;
-    font-family: sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight: 300;
 }
 
 #span1 {
     font-size: 30px;
-    font-family: inherit;
+    font-family: 'Pacifico', cursive;
     line-height: 1.2;
 }
 
 #h2 {
     font-size: 30px;
     line-height: 1.2;
-    font-family: monospace;
+    font-family: 'Playfair Display', serif;
+    ;
     font-weight: 200;
 }
 
@@ -71,4 +73,29 @@ p {
     margin: 35px auto;
     font-size: 17px;
     line-height: 1.3;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: darkblue;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 19px;
+}
+
+.links:hover {
+    background-color: darkorchid;
 }
