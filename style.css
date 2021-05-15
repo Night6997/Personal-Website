@@ -78,7 +78,7 @@ p {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 10px;
     z-index: 10;
@@ -98,4 +98,13 @@ p {
 
 .links:hover {
     background-color: darkorchid;
+}
+html{
+scroll-behavior: smooth;
+}
+a{
+text-decoration:none;
+}
+.article:hover{
+color:blueviolet;
 }
